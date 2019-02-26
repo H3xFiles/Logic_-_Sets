@@ -20,8 +20,10 @@ Alpha is entailed by beta iff Alpha ^ not-Beta is unsatisfiable
 
 ### find, and deduce your CNF and DNF.
 If you want to find DNF, you have to look at all rows that ends with T. When you find those rows, take the x,y, and z values from each respective column.
-Thus, you get (x∧y∧z)∨(x∧¬y∧¬z)∨(¬x∧y∧¬z)∨(¬x∧¬y∧z).
-Similarly, you can find CNF you negate each value in the following way(¬x∨¬y∨z)∧(¬x∨y∨¬z)∧(x∨¬y∨¬z)∧(x∨y∨z).
+#### DNF: 
+- Thus, you get (x∧y∧z)∨(x∧¬y∧¬z)∨(¬x∧y∧¬z)∨(¬x∧¬y∧z).
+#### CNF
+- Similarly, you can find CNF you negate each value in the following way(¬x∨¬y∨z)∧(¬x∨y∨¬z)∧(x∨¬y∨¬z)∧(x∨y∨z).
 
 ### CNF Algorithm Satisfiability
 - 1 - remove implication: (P∧Q)→Q, which becomes ¬(P∧Q)∨Q.
