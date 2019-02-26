@@ -18,8 +18,14 @@ Alpha is entailed by beta iff Alpha ^ not-Beta is unsatisfiable
 #### Links
 - [Source 1](https://www.youtube.com/watch?v=IFO0E-4dbVU) 
 
-### Semantic equivalence
 
-### Tautology 
+### find, and deduce your CNF and DNF.
+
+If you want to find DNF, you have to look at all rows that ends with T. When you find those rows, take the x,y, and z values from each respective column. Thus, you get
+(x∧y∧z)∨(x∧¬y∧¬z)∨(¬x∧y∧¬z)∨(¬x∧¬y∧z).
+
+Similarly, you can find CNF
+
+(¬x∨¬y∨z)∧(¬x∨y∨¬z)∧(x∨¬y∨¬z)∧(x∨y∨z)
 
 
