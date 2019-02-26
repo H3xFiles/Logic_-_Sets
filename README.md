@@ -24,8 +24,8 @@ Thus, you get (x∧y∧z)∨(x∧¬y∧¬z)∨(¬x∧y∧¬z)∨(¬x∧¬y∧z).
 Similarly, you can find CNF you negate each value in the following way(¬x∨¬y∨z)∧(¬x∨y∨¬z)∧(x∨¬y∨¬z)∧(x∨y∨z).
 
 ### CNF Algorithm Satisfiability
-1 - remove implication: (P∧Q)→Q, which becomes ¬(P∧Q)∨Q.
-2 - remove double negations
-3 - distribute the terms 
-4 - check if it is in CNF  (_ or _) and ( _ or _) and ( _ or _)
+- 1 - remove implication: (P∧Q)→Q, which becomes ¬(P∧Q)∨Q.
+- 2 - remove double negations
+- 3 - distribute the terms 
+- 4 - check if it is in CNF  (_ or _) and ( _ or _) and ( _ or _)
 
