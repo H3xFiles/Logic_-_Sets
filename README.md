@@ -1,6 +1,5 @@
 # Logic_-_Sets
 Study material for logic and sets University
-
 - [A Crash Course in Formal Logic](https://www.youtube.com/watch?v=ywKZgjpMBUU)
 - [Sentence Semantics](https://www.youtube.com/watch?v=XLvv_5meRNM&list=PLRIMXVU7SGRJF8gxD70oZPBoFAYxGs4QL&index=5)
 - [Introduction to predicate logic](https://www.youtube.com/channel/UCmVAIqvL7852sE23K5D1ldg)
@@ -20,12 +19,13 @@ Alpha is entailed by beta iff Alpha ^ not-Beta is unsatisfiable
 
 
 ### find, and deduce your CNF and DNF.
+If you want to find DNF, you have to look at all rows that ends with T. When you find those rows, take the x,y, and z values from each respective column.
+Thus, you get (x∧y∧z)∨(x∧¬y∧¬z)∨(¬x∧y∧¬z)∨(¬x∧¬y∧z).
+Similarly, you can find CNF you negate each value in the following way(¬x∨¬y∨z)∧(¬x∨y∨¬z)∧(x∨¬y∨¬z)∧(x∨y∨z).
 
-If you want to find DNF, you have to look at all rows that ends with T. When you find those rows, take the x,y, and z values from each respective column. Thus, you get
-(x∧y∧z)∨(x∧¬y∧¬z)∨(¬x∧y∧¬z)∨(¬x∧¬y∧z).
-
-Similarly, you can find CNF
-
-(¬x∨¬y∨z)∧(¬x∨y∨¬z)∧(x∨¬y∨¬z)∧(x∨y∨z)
-
+### CNF Algorithm Satisfiability
+1 - remove implication: (P∧Q)→Q, which becomes ¬(P∧Q)∨Q.
+2 - remove double negations
+3 - distribute the terms 
+4 - check if it is in CNF  (_ or _) and ( _ or _) and ( _ or _)
 
