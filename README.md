@@ -31,3 +31,5 @@ If you want to find DNF, you have to look at all rows that ends with T. When you
 - 3 - distribute the terms 
 - 4 - check if it is in CNF  (_ or _) and ( _ or _) and ( _ or _)
 
+### DPLL
+- [Page 15-16](http://profs.sci.univr.it/~farinelli/courses/ar/slides/DPLL.pdf)
