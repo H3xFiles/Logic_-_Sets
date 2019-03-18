@@ -32,3 +32,7 @@ If you want to find DNF, you have to look at all rows that ends with T. When you
 
 ### OBDDs
 - [Reduced ordered binary decision diagram](https://www.slideshare.net/RajeshYadav49/reduced-ordered-binary-decision-diagram-devi)
+#### Rules:
+- Rule C1: Collapse identical leaves.
+- Rule C2: Eliminate superfluous non-leaves.
+- Rule C3: Remove duplicate non-leaves.
