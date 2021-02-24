@@ -21,7 +21,7 @@ Study material for logic and sets University
 
 
 
-
+## Final 
 
 
 ### Semantic entailments
