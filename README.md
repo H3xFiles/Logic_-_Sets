@@ -6,7 +6,7 @@ Study material for logic and sets University
 
 ## Midterm material
 ### Sheffer stroke:
-- [Discrete Mathematics](Sheffer Stroke Examples](https://www.youtube.com/watch?v=vIWyeblTuwk)
+- [video explanation](https://www.youtube.com/watch?v=vIWyeblTuwk)
 
 ### Island of truth tellers and liars 
 - [pdf](https://sheilamorr.weebly.com/uploads/5/6/8/0/5680346/frederixon_cs1_articlefortask.pdf)
