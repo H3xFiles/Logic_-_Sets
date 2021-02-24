@@ -15,6 +15,7 @@ Study material for logic and sets University
 ### XOR
 - ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/79e6102bc63d3111d3acd7439f03d86ceee76c05)
 - ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/f8dfc84698010baba9bdd1f4b796295e9829079f)
+- ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/adfbb4af2e9468a772f654fc36aed71479a7a893)
 
 
 
