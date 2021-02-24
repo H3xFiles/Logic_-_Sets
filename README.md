@@ -4,6 +4,25 @@ Study material for logic and sets University
 - [Sentence Semantics](https://www.youtube.com/watch?v=XLvv_5meRNM&list=PLRIMXVU7SGRJF8gxD70oZPBoFAYxGs4QL&index=5)
 - [Introduction to predicate logic](https://www.youtube.com/channel/UCmVAIqvL7852sE23K5D1ldg)
 
+## Midterm material
+### Sheffer stroke:
+- [Discrete Mathematics](Sheffer Stroke Examples](https://www.youtube.com/watch?v=vIWyeblTuwk)
+
+### Island of truth tellers and liars 
+- [pdf](https://sheilamorr.weebly.com/uploads/5/6/8/0/5680346/frederixon_cs1_articlefortask.pdf)
+
+
+### XOR
+- ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/79e6102bc63d3111d3acd7439f03d86ceee76c05)
+- ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/f8dfc84698010baba9bdd1f4b796295e9829079f)
+
+
+
+
+
+
+
+
 
 ### Semantic entailments
 Alpha is entailed by beta iff Alpha ^ not-Beta is unsatisfiable
